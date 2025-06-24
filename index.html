@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+
+
+  <title>Frontend Mentor | Single Price Grid Component</title>
+  <style>
+    * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(216, 20%, 76%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Karla', sans-serif;
+  padding: 1rem;
+}
+
+.main_container {
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+}
+
+.container {
+  display: grid;
+  background-color: hsl(204, 43%, 93%);
+  padding: 30px 40px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.first_h3 {
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+}
+
+.first_h4 {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+}
+
+.first_p {
+  color: hsl(218, 22%, 67%);
+  font-size: 12px;
+}
+
+.first_h3,
+.first_h4 {
+  margin-bottom: 12px;
+}
+
+.first_h4,
+.first_p {
+  margin-bottom: 7px;
+}
+
+.container_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.colls_1 {
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+  flex: 1;
+  padding: 2rem;
+  border-bottom-left-radius: 5px;
+}
+
+.colls_2 {
+  background-color: hsl(179, 40%, 70%);
+  color: white;
+  flex: 1;
+  padding: 2rem;
+  border-bottom-right-radius: 5px;
+}
+
+.colls_1>.space {
+  font-size: 15px;
+}
+
+.colls_1>h6 {
+  padding-bottom: 17px;
+}
+
+.container_2>.colls_1>h4 {
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.container_2>.colls_1>p {
+  font-size: 12px;
+  padding-bottom: 22px;
+}
+
+button {
+  width: 80%;
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  padding: 0 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.colls_2>h6 {
+  padding-bottom: 17px;
+  font-size: 15px;
+}
+
+.colls_2 ul li {
+  list-style: none;
+  font-size: 12px;
+  padding-bottom: 3px;
+  color: rgba(255, 255, 255, 0.547);
+}
+
+@media (max-width: 600px) {
+  .container_2 {
+    flex-direction: column;
+  }
+
+  .colls_1,
+  .colls_2 {
+    border-radius: 0;
+    width: 100%;
+  }
+
+  
+
+  .colls_2 {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  button {
+    font-size: 13px;
+    width: 100%;
+    
+  }
+}
+.attribution { 
+  font-size: 12px; 
+  text-align: center; }
+.attribution a {
+  color: hsl(228, 45%, 44%); }
+footer{
+  margin-top: 50px;
+}
+  </style>
+</head>
+
+<body>
+  <div class="main_container">
+    <div class="container">
+      <h3 class="first_h3">Join our community</h3>
+      <h4 class="first_h4">30-day, hassle-free money back gurantee</h4>
+
+      <p class="first_p">
+        Gain access to our full library of tutorials along with expert code reviews. <br>
+        Perfect for any developers who are serious about honing their skills.
+      </p>
+    </div>
+
+    <div class="container_2">
+      <div class="colls_1">
+        <h6 class="space">Monthly Subscription</h6>
+        <h4 class="space">$29 <small
+            style="font-weight: lighter; color: rgba(255, 255, 255, 0.541); padding-left: 7px; font-size: 12px;">Per
+            month</small></h4>
+        <p class="space" style>Full access for less than $1 a day</p>
+        <button class="space">Sign Up</button>
+        </div>
+      <div class="colls_2">
+        <h6>Why Us</h6>
+        <ul>
+          <li>Tutorials by industry experts</li>
+          <li>Peer & expert code review</li>
+          <li>Coding exercises</li>
+          <li>Access to our Github repos</li>
+          <li>Community forum</li>
+          <li>Flashcard decks</li>
+          <li>New videos every week</li>
+        </ul>
+      </div>
+     
+    </div>
+</body>
+ <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Genesis Ighomwaye</a>.
+    </p>
+  </footer>
+
+</html>
