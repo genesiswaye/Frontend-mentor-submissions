@@ -8,7 +8,7 @@ This is my solution to the [Single Price Grid Component challenge on Frontend Me
 
 ## 🔗 Links
 
-- Live Site URL: [Add your live site URL here](https://genesiswaye.github.io/Frontend-mentor-submissions/)
+- Live Site URL: (https://genesiswaye.github.io/Frontend-mentor-submissions/)
 
 ## 🚀 Overview
 
