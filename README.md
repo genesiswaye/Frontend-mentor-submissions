@@ -1,71 +1,65 @@
-# Frontend Mentor - Four Card Feature Section
+# Frontend Mentor - Single Price Grid Component
 
-This is my solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK).
+This is my solution to the [Single Price Grid Component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc).
 
 ## 📸 Screenshot
 
-![Screenshot](./solution.png) 
-
----
+![Screenshot of the solution](/solution.png)
 
 ## 🔗 Links
 
-- Live Site URL: [Add your live site here](https://your-deployment-link.com)
+- Live Site URL: [Add your live site URL here](https://your-live-site.com)
 
----
+## 🚀 Overview
 
-## 🛠 Built With
+### 🎯 The Challenge
+
+Users should be able to:
+- View the optimal layout depending on screen size (responsive)
+- See a hover state on desktop for the Sign Up call-to-action
+
+### ✅ Built With
 
 - Semantic HTML5
-- CSS3 (Flexbox + Grid)
-- Custom media queries
-- Google Fonts (`Poppins`)
-- Mobile-first responsive design
+- CSS Flexbox and Grid
+- Google Fonts (Karla)
+- Mobile-first workflow
 
----
+## 🛠️ My Process
 
-## 📐 Layout
+### 1. HTML Structure
+I structured the layout using semantic containers like `div`, `section`, and appropriate heading tags (`h3`, `h4`, etc.).
 
-The layout uses a combination of **CSS Grid** and **relative positioning** to form a diamond-shaped structure on desktop, with responsive stacking on smaller screens.
+### 2. CSS Layout
+Used a combination of Grid for the top section and Flexbox for the two-column pricing/details layout. Background colors were taken from the HSL values specified in the challenge, with adjustments made for better contrast.
 
----
-
-## ⚙️ Features
-
-- Fully responsive layout (mobile-first)
-- Visually distinct card design with colored top borders
-- Diamond card arrangement on desktop
-- Optimized for 600px and 900px breakpoints
-
----
+### 3. Responsiveness
+The page was styled using a mobile-first approach with relative units and a combination of Flexbox and Grid layouts to ensure it looks good on all screen sizes. Media queries were used to adapt the layout — particularly by stacking columns on smaller screens (like 375px wide devices) to maintain readability and usability.
 
 ## 📚 What I Learned
 
-- How to create a diamond-shaped grid layout using `grid-column`, `grid-row`, and `position: relative`
-- How to reset layout behavior in media queries using `grid-template-columns: 1fr` and `position: static`
-- Using `vh` and `rem` units for responsive height and spacing
-- How to visually hide a `<br>` tag using a `<span>` wrapper and `display: none` in media queries
-- Customizing box shadows and borders to visually distinguish elements
-
----
+- How to blend Grid and Flexbox layouts in a component-style design
+- Customizing color overlays and shades using HSL adjustments
+- Managing typographic hierarchy with font weight and spacing
+- Structuring CSS for maintainability and clarity
+- Writing media queries to make components responsive on different screen sizes
 
 ## 🔄 Continued Development
 
-- How to use CSS animations and transitions.
-- To make the responsiveness of my pages better
+- Add hover state to the "Sign Up" button
+- Implement mobile responsiveness using media queries
 
----
 
-## 🧠 Useful Resources
+## 📘 Useful Resources
 
-- [CSS Grid Guide – MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
-- [Responsive Units – CSS Tricks](https://css-tricks.com/the-lengths-of-css/)
-- [Google Fonts – Poppins](https://fonts.google.com/specimen/Poppins)
-- [Frontend Mentor Challenge Page](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK)
-
----
+- [Frontend Mentor Challenge Page](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc)
+- [CSS Tricks: Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Google Fonts - Karla](https://fonts.google.com/specimen/Karla)
 
 ## 👤 Author
 
-- GitHub – [@genesiswaye]https://github.com/genesiswaye/Frontend-mentor-submissions.git
-- Frontend Mentor – [@genesiswaye](https://www.frontendmentor.io/profile/genesiswaye)
+- Frontend Mentor – [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Twitter – [@yourusername](https://twitter.com/yourusername)
+
+---
+
