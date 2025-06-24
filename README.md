@@ -58,8 +58,7 @@ The page was styled using a mobile-first approach with relative units and a comb
 
 ## 👤 Author
 
-- Frontend Mentor – [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter – [@yourusername](https://twitter.com/yourusername)
+- Frontend Mentor – [@genesiswaye](https://www.frontendmentor.io/profile/genesiswaye)
 
 ---
 
